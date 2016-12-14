@@ -1,6 +1,6 @@
 # twitbasedemo
 
-基于《HBase实战》的demo程序twitbase修改，适应hbase1.0.0的版本。该项目仅用于参考基础API的使用。
+基于[《HBase实战》](https://book.douban.com/subject/25706541/)demo程序twitbase修改，使其适应hbase1.0.0的版本。该项目仅用于参考基础API的使用。
 
 0. 针对于hbase1.0.0
 1. 书中API的写法大部分已经Deprecated，所以改为适应hbase1.0.0的写法
@@ -10,4 +10,4 @@
 5. 去除原项目内的shell脚本及传参的处理，可直接在IDE内运行
 6. 添加hbase-site.xml，可配置连接的zk地址或其他配置
 
-
+###[源码地址](https://github.com/HBaseinaction)
