@@ -8,8 +8,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-
-
     <repositories>
         <repository>
             <id>apache release</id>
@@ -18,25 +16,21 @@
     </repositories>
   
   <dependencies>
-  
-
-      <dependency>
-        <artifactId>hbase-examples</artifactId>
-        <groupId>org.apache.hbase</groupId>
-        <version>1.0.0</version>
-      </dependency>
-    <!-- Hadoop requires commons-io but doesn't list it as an explicit
-         or transient dependency. include it manually. -->
-         
+    <dependency>
+      <artifactId>hbase-examples</artifactId>
+      <groupId>org.apache.hbase</groupId>
+      <version>1.0.0</version>
+    </dependency>
     <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
       <version>2.1</version>
     </dependency>
     <dependency>
-    <groupId>joda-time</groupId>
-    <artifactId>joda-time</artifactId>
-    <version>2.9.6</version>
-</dependency>
+      <groupId>joda-time</groupId>
+      <artifactId>joda-time</artifactId>
+      <version>2.9.6</version>
+    </dependency>
   </dependencies>
+  
 </project>
