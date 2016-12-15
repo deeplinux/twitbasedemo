@@ -10,4 +10,4 @@
 5. 去除原项目内的shell脚本及传参的处理，可直接在IDE内运行
 6. 添加hbase-site.xml，可配置连接的zk地址或其他配置
 
-###[源码地址](https://github.com/HBaseinaction)
+###[原始的twitbase源码地址](https://github.com/HBaseinaction)
