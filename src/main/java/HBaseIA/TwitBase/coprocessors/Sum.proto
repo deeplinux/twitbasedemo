@@ -1,0 +1,19 @@
+syntax = "proto2";
+option java_package = "HBaseIA.TwitBase.model";
+option java_outer_classname = "Sum";
+option java_generic_services = true;
+option java_generate_equals_and_hash = true;
+option optimize_for = SPEED;
+message SumRequest {
+    required string family = 1;
+    required string column = 2;
+}
+
+message SumResponse {
+  required int64 sum = 1 [default = 0];
+}
+
+service SumService {
+  rpc getSum(SumRequest)
+    returns (SumResponse);
+}
